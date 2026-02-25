@@ -1,0 +1,4 @@
+docker-compose up --build
+mkdir -p todo-api/{static/{css,js},templates}
+docker-compose down
+docker-compose up
